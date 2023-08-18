@@ -16,7 +16,7 @@ export default function Navbar() {
     }
 
     return (
-        <div>
+        <div className='position-sticky top-0'>
             <div className={`blck_layers  ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}></div>
             <div className='Topbar'>
                 <div className='Navbar_Section'>
