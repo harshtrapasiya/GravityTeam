@@ -281,6 +281,7 @@
     width: 100%;
 }
 
+
 .getin_Touch {
     text-transform: uppercase;
     position: relative;
@@ -612,7 +613,7 @@
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 10rem;
 }
 
 .Slider_Contant {
@@ -684,29 +685,29 @@
     z-index: -1;
 }
 
-.Contactbg2{
+.Contactbg2 {
     right: 0;
     position: absolute;
     top: -50%;
     z-index: -1;
 }
 
-.Footer_section{
-    padding:  9rem 16rem;
+.Footer_section {
+    padding: 9rem 16rem;
     border-top: 1px solid #4F5052;
     margin-top: 10rem;
 }
 
-.Gravity_txt{
+.Gravity_txt {
     text-transform: uppercase;
 }
 
-.Footer_logo_section{
+.Footer_logo_section {
     display: flex;
     justify-content: space-between;
 }
 
-.about_Ul a{
+.about_Ul a {
     color: #BCBCBC;
 }
 
@@ -715,11 +716,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+
 
 }
-.Privacy_Policy a{
+
+.Privacy_Policy a {
     color: #BCBCBC;
-  
+
 
 }

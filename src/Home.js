@@ -37,7 +37,9 @@ export default function Home() {
 
   return (
     <div>
+
       <div className='hero_section' data-aos="zoom-in" data-aos-duration="3000">
+
         <h1>Balancing Crypto Markets </h1>
         <p>Our fully automated proprietary quantitative trading software provides 24/7 liquidity to 170+ crypto assets across 25+ centralized spot and derivative crypto exchanges.</p>
         <Link className='get_btn'>Get in touch</Link>
@@ -326,12 +328,12 @@ export default function Home() {
             <h1>Contact Us </h1>
             <p>We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or a project looking for liquidity; an algorithmic trader or a software developer looking to improve the markets with us or just have a great idea you can’t wait to share with us!</p>
             <Link className='get_btn'>Get in touch</Link>
-
           </div>
 
           <div className='Contactbg1'>
             <img src={Contactbg1} className='img-fluid' alt="" />
           </div>
+
           <div className='Contactbg2'>
             <img src={Contactbg2} className='img-fluid' alt="" />
           </div>
@@ -341,6 +343,7 @@ export default function Home() {
       </div>
 
       <footer className='Footer_section'>
+
         <div className='Footer_logo_section'>
           <div>
             <h6 className='Gravity_txt'>Gravity Team</h6>

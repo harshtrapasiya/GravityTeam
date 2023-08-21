@@ -31,18 +31,9 @@ export default function Navbar() {
                         <li className='Nav_items'>
                             <Link className='Nav_link'>About Us</Link>
                         </li>
-
                         <li className='Nav_items'>
-                            <NavDropdown className='Nav_link' title="Our Services" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">
-                                    Something else here
-                                </NavDropdown.Item>
-                            </NavDropdown></li>
+                            <Link className='Nav_link'>Our Services</Link>
+                        </li>
 
                         <li className='Nav_items'><Link className='Nav_link'>Work with Us</Link></li>
 
