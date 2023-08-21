@@ -207,6 +207,9 @@ h6 {
     width: 80%;
   }
 
+  .Compnay_Slidders {
+    width: 60%;
+  }
 
 
 }
@@ -257,7 +260,17 @@ h6 {
     width: 85%;
   }
 
+  .Compnay_Slidders {
+    width: 60%;
+  }
 
+  .Join_heading h2 {
+    width: 80%;
+  }
+
+  .Contactbg1 {
+    left: -20%;
+  }
 
 
 }
@@ -314,7 +327,7 @@ h6 {
 
   .ourpartners_txt h2 {
     width: 100%;
-    text-align: center;
+    text-align: center !important;
     font-size: 5rem;
   }
 
@@ -324,6 +337,30 @@ h6 {
     width: 80%;
   }
 
+  .Compnay_Slidders {
+    width: 70%;
+  }
+
+  .Join_team_section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 8%;
+  }
+
+  .Join_heading h2 {
+    width: 100%;
+    font-size: 5rem !important;
+    text-align: center;
+
+  }
+
+  .Contactbg1 {
+    left: -20%;
+  }
+
+  .Footer_section {
+    padding: 6rem 10rem;
+    margin-top: 8rem;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -418,6 +455,30 @@ h6 {
 
   .marquee-wrapper .containers {
     width: 70%;
+  }
+
+  .Compnay_Slidders {
+    width: 80%;
+  }
+
+  .Join_team_section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 6%;
+  }
+
+  .Join_heading h2 {
+    width: 100%;
+    font-size: 5rem !important;
+    text-align: center;
+  }
+
+  .Contactbg1 {
+    left: -60%;
+  }
+
+  .Footer_section {
+    padding: 5rem 8rem;
+    margin-top: 6rem;
   }
 }
 
@@ -588,8 +649,62 @@ h6 {
     width: 100%;
   }
 
-  .Contant_name img{
+  .Contant_name img {
     width: 6rem;
     height: 6rem;
   }
+
+  .Compnay_Slidders {
+    width: 100%;
+  }
+
+  .good_company_section h2 {
+    font-size: 3.6rem;
+  }
+
+  .owl-theme .owl-dots {
+    margin-top: 5rem !important;
+  }
+
+  .Join_team_section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 6%;
+  }
+
+  .Join_heading h2 {
+    width: 100%;
+    font-size: 3.6rem !important;
+    text-align: center;
+  }
+
+  .Contactbg1 {
+    left: -60%;
+  }
+
+  .Footer_section {
+    padding: 4rem;
+    margin-top: 6rem;
+  }
+
+  .Footer_logo_section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .Gravity_txt {
+    margin-top: 2rem;
+  }
+
+  .Privacy_Policy {
+    margin-top: 3rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.trem_bg {
+  left: 0;
+}
 }
