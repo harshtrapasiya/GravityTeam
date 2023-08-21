@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       <div className='Aboutteam_Content'>
-        <h1 data-aos="flip-left" data-aos-duration="2000">About Gravity Team </h1>
+        <h1>About Gravity Team </h1>
         <p>At Gravity Team, we are on the mission to balance the supply and demand across crypto markets worldwide. We are a crypto native market maker founded by traders, developers, and innovators who are strong believers and supporters of the future of decentralization and digital assets.</p>
       </div>
 
@@ -114,7 +114,7 @@ export default function Home() {
       </div>
 
       <div className='Aboutteam_Content'>
-        <h1 data-aos="flip-left" data-aos-duration="2000">Crypto Market Making </h1>
+        <h1>Crypto Market Making </h1>
         <p>We are a global crypto liquidity provider and algorithmic market maker. We trade digital assets listed on Centralized Exchanges in over 15 countries worldwide.</p>
       </div>
 
@@ -323,7 +323,7 @@ export default function Home() {
 
         <div className='Contact_section'>
           <div className="Aboutteam_Content ">
-            <h1 data-aos="flip-left" data-aos-duration="2000" className="aos-init aos-animate">Contact Us </h1>
+            <h1>Contact Us </h1>
             <p>We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or a project looking for liquidity; an algorithmic trader or a software developer looking to improve the markets with us or just have a great idea you can’t wait to share with us!</p>
             <Link className='get_btn'>Get in touch</Link>
 
