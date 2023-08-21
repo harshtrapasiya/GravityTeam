@@ -7,6 +7,19 @@ body {
   color: white;
 }
 
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;600;700&family=Yesteryear&display=swap');
 
 
@@ -149,9 +162,18 @@ h6 {
 }
 
 
+
 @media screen and (min-width: 1400px) and (max-width: 1599px) {
   html {
     font-size: 9px;
+  }
+
+  .ourpartners_txt h2 {
+    width: 70%;
+  }
+
+  .marquee-wrapper .containers {
+    width: 75%;
   }
 }
 
@@ -176,6 +198,17 @@ h6 {
   .about_items h2 {
     font-size: 3rem;
   }
+
+  .ourpartners_txt h2 {
+    width: 80%;
+  }
+
+  .marquee-wrapper .containers {
+    width: 80%;
+  }
+
+
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -207,6 +240,23 @@ h6 {
   .MarketMaking_contant {
     width: 90%;
   }
+
+
+  .middleleft_bg {
+    left: -40%;
+    top: -25%;
+    width: 80%;
+  }
+
+
+  .ourpartners_txt h2 {
+    width: 80%;
+  }
+
+  .marquee-wrapper .containers {
+    width: 85%;
+  }
+
 
 
 
@@ -257,6 +307,23 @@ h6 {
     grid-gap: 5rem;
     margin-top: 6rem;
   }
+
+  .our_partners_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ourpartners_txt h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .middleleft_bg {
+    left: -40%;
+    top: -25%;
+    width: 80%;
+  }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -332,6 +399,26 @@ h6 {
     margin-top: 1rem;
   }
 
+
+  .our_partners_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ourpartners_txt h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .middleleft_bg {
+    left: -40%;
+    top: -25%;
+    width: 80%;
+  }
+
+  .marquee-wrapper .containers {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -341,10 +428,10 @@ h6 {
 
   .blck_layers {
     width: 100%;
-    position: absolute;
+    position: fixed;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.158);
-    z-index: 998;
+    z-index: 1;
     backdrop-filter: blur(4px);
   }
 
@@ -478,5 +565,31 @@ h6 {
 
   .MarketMaking_contant h2 {
     font-size: 2.4rem;
-}
+  }
+
+
+  .our_partners_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ourpartners_txt h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.6rem !important;
+  }
+
+  .middleleft_bg {
+    left: -31%;
+    top: -15%;
+    width: 80%;
+  }
+
+  .marquee-wrapper .containers {
+    width: 100%;
+  }
+
+  .Contant_name img{
+    width: 6rem;
+    height: 6rem;
+  }
 }

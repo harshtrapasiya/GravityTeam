@@ -16,9 +16,12 @@ export default function Navbar() {
     }
 
     return (
-        <div className='position-sticky top-0'>
-            <div className={`blck_layers  ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}></div>
-            <div className='Topbar'>
+        <>
+            <div className={`blck_layers  ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}>
+            </div>
+  
+        
+        <div className='Topbar'>
                 <div className='Navbar_Section'>
                     <Link className='Logo_section'>
                         <img src={Logo} alt="" className='img-fluid' />
@@ -54,6 +57,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-        </div >
+            </>
     )
 }
