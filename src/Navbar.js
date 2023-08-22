@@ -23,7 +23,7 @@ export default function Navbar() {
 
             <div className='Topbar'>
                 <div className='Navbar_Section'>
-                    <NavLink className='Logo_section' to='/' onClick={()=> setmenu(!menu)}>
+                    <NavLink className='Logo_section' to='/' >
                         <img  src={Logo} alt="" className='img-fluid' />
                     </NavLink>
 
