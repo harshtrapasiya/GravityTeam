@@ -7,6 +7,10 @@ import Navbar from './Navbar';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Home from './Home'
+import Aboutus from './Aboutus'
+import Ourservices from './Ourservices'
+import Workwithus from './Workwithus'
+import Blog from './Blog'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +21,10 @@ root.render(
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/about-us' element={<Aboutus />} />
+      <Route path='/Ourservices' element={<Ourservices />} />
+      <Route path='/workwithus' element={<Workwithus />} />
+      <Route path='/Blog' element={<Blog />} />
     </Routes>
   </BrowserRouter>
 

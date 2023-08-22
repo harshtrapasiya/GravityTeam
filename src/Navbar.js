@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Logo from './img/gravity_logo.png'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { RiMenu3Fill } from 'react-icons/ri';
@@ -19,25 +19,26 @@ export default function Navbar() {
         <>
             <div className={`blck_layers  ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}>
             </div>
-  
-        
-        <div className='Topbar'>
+
+
+            <div className='Topbar'>
                 <div className='Navbar_Section'>
-                    <Link className='Logo_section'>
-                        <img src={Logo} alt="" className='img-fluid' />
-                    </Link>
+                    <NavLink className='Logo_section' to='/'>
+                        <img  src={Logo} alt="" className='img-fluid' />
+                    </NavLink>
 
                     <ul className={`Navbar_ul ${menu === true ? 'active' : ''}`}>
                         <li className='Nav_items'>
-                            <Link className='Nav_link'>About Us</Link>
+                            <NavLink className='Nav_link' to="/about-us">About Us</NavLink>
                         </li>
                         <li className='Nav_items'>
-                            <Link className='Nav_link'>Our Services</Link>
+                            <NavLink to='/Ourservices' className='Nav_link'>Our Services</NavLink>
                         </li>
 
-                        <li className='Nav_items'><Link className='Nav_link'>Work with Us</Link></li>
+                        <li className='Nav_items'>
+                            <NavLink to='/workwithus' className='Nav_link'>Work with Us</NavLink></li>
 
-                        <li className='Nav_items'><Link className='Nav_link'>Blog</Link></li>
+                        <li className='Nav_items'><NavLink className='Nav_link' to='/Blog'>Blog</NavLink></li>
                     </ul>
 
                     <div className='get_touch'>
@@ -48,6 +49,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            </>
+        </>
     )
 }
