@@ -23,22 +23,22 @@ export default function Navbar() {
 
             <div className='Topbar'>
                 <div className='Navbar_Section'>
-                    <NavLink className='Logo_section' to='/'>
+                    <NavLink className='Logo_section' to='/' onClick={()=> setmenu(!menu)}>
                         <img  src={Logo} alt="" className='img-fluid' />
                     </NavLink>
 
                     <ul className={`Navbar_ul ${menu === true ? 'active' : ''}`}>
                         <li className='Nav_items'>
-                            <NavLink className='Nav_link' to="/about-us">About Us</NavLink>
+                            <NavLink className='Nav_link' to="/about-us" onClick={()=> setmenu(!menu)}>About Us</NavLink>
                         </li>
                         <li className='Nav_items'>
-                            <NavLink to='/Ourservices' className='Nav_link'>Our Services</NavLink>
+                            <NavLink to='/Ourservices' className='Nav_link' onClick={()=> setmenu(!menu)}>Our Services</NavLink>
                         </li>
 
                         <li className='Nav_items'>
-                            <NavLink to='/workwithus' className='Nav_link'>Work with Us</NavLink></li>
+                            <NavLink to='/workwithus' className='Nav_link' onClick={()=> setmenu(!menu)}>Work with Us</NavLink></li>
 
-                        <li className='Nav_items'><NavLink className='Nav_link' to='/Blog'>Blog</NavLink></li>
+                        <li className='Nav_items'><NavLink className='Nav_link' to='/Blog' onClick={()=> setmenu(!menu)}>Blog</NavLink></li>
                     </ul>
 
                     <div className='get_touch'>
