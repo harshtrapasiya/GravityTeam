@@ -538,6 +538,14 @@ h6 {
     background: #080101;
   }
 
+  .WorkWith_items {
+    padding: 2rem;
+  }
+
+  .Work_txt {
+    font-size: 3rem;
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -603,7 +611,7 @@ h6 {
 
   .about_items:nth-child(5),
   .about_items:nth-child(6) {
-    border-bottom: ridge;
+    border-bottom: 1px solid;
   }
 
   .about_items:nth-child(7) {
@@ -718,4 +726,23 @@ h6 {
   .GravityTeam_content {
     font-size: 1.8rem;
   }
+
+  .WorkWith_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 6rem;
+    gap: 2rem;
+  }
+
+  .WorkWith_items:nth-child(1),
+  .WorkWith_items:nth-child(3) {
+    border-right: 2px solid;
+  }
+
+  .WorkWith_items:nth-child(1),
+  .WorkWith_items:nth-child(2) {
+    border-bottom: 2px solid;
+  }
+
+ 
 }

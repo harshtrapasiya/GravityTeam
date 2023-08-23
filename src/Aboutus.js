@@ -112,9 +112,6 @@ export default function Aboutus() {
 
         </div>
 
-
-
-
       </div>
 
 
