@@ -1,13 +1,13 @@
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
+.Compnay_Slidders .owl-theme .owl-dots .owl-dot.active span,
+.Compnay_Slidders .owl-theme .owl-dots .owl-dot:hover span {
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.Compnay_Slidders .owl-theme .owl-dots .owl-dot span {
     background: #333333;
 }
 
-.owl-carousel .owl-nav {
+.Compnay_Slidders .owl-carousel .owl-nav {
     position: absolute;
     top: -60px;
     left: 50%;
@@ -18,28 +18,32 @@
     width: auto;
 }
 
-.owl-theme .owl-nav {
+.Compnay_Slidders .owl-theme .owl-nav {
     margin-top: 0;
 }
 
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next {
+.Compnay_Slidders .owl-carousel .owl-nav button.owl-prev,
+.Compnay_Slidders .owl-carousel .owl-nav button.owl-next {
     width: 5rem;
     height: 5rem;
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
     font-size: 3rem;
-
-
+    border-radius: 50%;
 }
 
-.owl-theme .owl-nav .disabled {
+.Compnay_Slidders .owl-theme .owl-nav .disabled {
     opacity: 0;
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover {
+.Compnay_Slidders .owl-theme .owl-nav [class*='owl-']:hover {
     background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
 }
 
-.owl-theme .owl-dots {
+.Compnay_Slidders .owl-theme .owl-dots {
     margin-top: 10rem;
+}
+
+.OurInvestments_Sliders .owl-carousel .owl-nav {
+    bottom: -70px;
+    top: inherit;
 }

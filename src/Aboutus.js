@@ -1,22 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useEffect } from 'react';
 import CountUp from 'react-countup';
 import Aboutmen from "./img/aboutmen.jpg";
 import Logo from "./img/gravity_logo.png";
+import Techchill from "./img/techchill.png";
+import Bitcoin from "./img/bitcoin-.png";
+import Hackcodex from "./img/hackcodex-.png";
+import OwlCarousel2 from './OwlCarousel2'
 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
+
 export default function Aboutus() {
+
+  const [philanthropy, setPhilanthropy] = useState(false)
+
   useEffect(() => {
     AOS.init();
   }, [])
 
 
   return (
-    <div>
+    <div className='main_Container'>
 
       <div className='hero_section' data-aos="zoom-in" data-aos-duration="3000">
         <h1>Get to Know
@@ -33,7 +41,7 @@ export default function Aboutus() {
             <p className='mt-4'>We have a solid team of ~30 talented professionals, and we continue growing in team size, market volume, and global reach.</p>
           </div>
 
-        
+
 
           <div className='about_images order-0 order-lg-1' data-aos="fade-left">
             <img src={Aboutmen} alt="" className='img-fluid' />
@@ -105,6 +113,152 @@ export default function Aboutus() {
         </div>
 
 
+
+
+      </div>
+
+
+      <div className="Aboutteam_Content"><h1>
+        Our Philanthropy & Sponsorships </h1></div>
+
+      <div className='container_About '>
+        <div className='Philanthropy_section'>
+
+          <div className='Philanthropy_items' data-aos="fade-right">
+            <div className='TechChill_contant'>
+              <div className='Techchill_logo'>
+                <img src={Techchill} alt="" className='img-fuild' />
+              </div>
+              <div className='CRYPTO_contant'>
+                <p>
+                  CRYPTO & TECHNOLOGY INDUSTRY</p>
+                <span>TechChill</span>
+              </div>
+            </div>
+            <div className='TechChill_txt'>
+              <p>TechChill celebrates the best of the Baltic startup community by annually bringing together 2000+ attendees, including the fastest-growing startups, most innovative corporations, investors active in the region and talented tech enthusiasts. TechChill is organized by a non-profit foundation of the same name, empowering the Baltic startup ecosystem throughout the year.
+              </p>
+              <p className='mt-4'>We were one of the main sponsors of the TechChill 2022 conference.</p>
+            </div>
+          </div>
+
+          <div className='Philanthropy_items' data-aos="fade-left">
+            <div className='TechChill_contant'>
+              <div className='Techchill_logo'>
+                <img src={Bitcoin} alt="" className='img-fuild' />
+              </div>
+              <div className='CRYPTO_contant'>
+                <p>
+                  CRYPTO</p>
+                <span>Bitcoin 2022 Conference</span>
+              </div>
+            </div>
+            <div className='TechChill_txt'>
+              <p>Bitcoin Miami is the largest Bitcoin event in the world, with over 35,000 attendees and more than 450 speakers. The event took place from the 6th- 9th of April at the Miami Beach Conference Center in Miami, USA.
+
+              </p>
+              <p className='mt-4'>We were the official sponsor of the Bitcoin 2022 conference.
+
+              </p>
+            </div>
+          </div>
+
+          <div className='Philanthropy_items' data-aos="fade-right">
+            <div className='TechChill_contant'>
+              <div className='Techchill_logo'>
+                <img src={Hackcodex} alt="" className='img-fuild' />
+              </div>
+              <div className='CRYPTO_contant'>
+                <p>
+                  STARTUP ECOSYSTEM
+                </p>
+                <span>CodeX Hackathon
+                </span>
+              </div>
+            </div>
+            <div className='TechChill_txt'>
+              <p>CodeX is an international 48-hour hackathon that brings together 300+ developers, designers, and other techies from all over Europe for a weekend of code. The hackers put their best effort to solve a variety of cutting-edge technology challenges, ranging from crypto, AR, 3D modeling and more.
+
+              </p>
+              <p className='mt-4'>We were one of the main sponsors of the CodeX 2022 hackathon.
+
+              </p>
+            </div>
+          </div>
+
+          <div className={`Hide_items  ${philanthropy === true ? 'd-grid' : 'd-none'}`}>
+            <div className='Philanthropy_items' >
+              <div className='TechChill_contant'>
+                <div className='Techchill_logo'>
+                  <img src={Techchill} alt="" className='img-fuild' />
+                </div>
+                <div className='CRYPTO_contant'>
+                  <p>
+                    CRYPTO & TECHNOLOGY INDUSTRY</p>
+                  <span>TechChill</span>
+                </div>
+              </div>
+              <div className='TechChill_txt'>
+                <p>TechChill celebrates the best of the Baltic startup community by annually bringing together 2000+ attendees, including the fastest-growing startups, most innovative corporations, investors active in the region and talented tech enthusiasts. TechChill is organized by a non-profit foundation of the same name, empowering the Baltic startup ecosystem throughout the year.
+                </p>
+                <p className='mt-4'>We were one of the main sponsors of the TechChill 2022 conference.</p>
+              </div>
+            </div>
+
+            <div className='Philanthropy_items'>
+              <div className='TechChill_contant'>
+                <div className='Techchill_logo'>
+                  <img src={Bitcoin} alt="" className='img-fuild' />
+                </div>
+                <div className='CRYPTO_contant'>
+                  <p>
+                    CRYPTO</p>
+                  <span>Bitcoin 2022 Conference</span>
+                </div>
+              </div>
+              <div className='TechChill_txt'>
+                <p>Bitcoin Miami is the largest Bitcoin event in the world, with over 35,000 attendees and more than 450 speakers. The event took place from the 6th- 9th of April at the Miami Beach Conference Center in Miami, USA.
+
+                </p>
+                <p className='mt-4'>We were the official sponsor of the Bitcoin 2022 conference.
+
+                </p>
+              </div>
+            </div>
+
+            <div className='Philanthropy_items'>
+              <div className='TechChill_contant'>
+                <div className='Techchill_logo'>
+                  <img src={Hackcodex} alt="" className='img-fuild' />
+                </div>
+                <div className='CRYPTO_contant'>
+                  <p>
+                    STARTUP ECOSYSTEM
+                  </p>
+                  <span>CodeX Hackathon
+                  </span>
+                </div>
+              </div>
+              <div className='TechChill_txt'>
+                <p>CodeX is an international 48-hour hackathon that brings together 300+ developers, designers, and other techies from all over Europe for a weekend of code. The hackers put their best effort to solve a variety of cutting-edge technology challenges, ranging from crypto, AR, 3D modeling and more.
+
+                </p>
+                <p className='mt-4'>We were one of the main sponsors of the CodeX 2022 hackathon.
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className='LoadMore_items'>
+            <p className='LoadMore_txt' onClick={() => setPhilanthropy(!philanthropy)} >{
+          philanthropy === true ? ' Show less' : 'Load More'
+        }</p></div>
+
+        <OwlCarousel2/>
 
       </div>
 

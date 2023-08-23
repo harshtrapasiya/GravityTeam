@@ -702,10 +702,20 @@ h6 {
     justify-content: center;
     gap: 1rem;
     text-align: center;
-}
+  }
 
-.trem_bg {
-  left: 0;
-  top: 300%;
-}
+  .trem_bg {
+    left: 0;
+    top: 300%;
+  }
+
+  .Philanthropy_items {
+    padding: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .GravityTeam_content {
+    font-size: 1.8rem;
+  }
 }

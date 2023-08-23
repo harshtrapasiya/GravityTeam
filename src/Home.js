@@ -36,7 +36,7 @@ export default function Home() {
 
 
   return (
-    <div>
+    <div className='main_Container'>
 
       <div className='hero_section' data-aos="zoom-in" data-aos-duration="3000">
 

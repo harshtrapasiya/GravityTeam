@@ -51,6 +51,7 @@ export default function OwlSlider() {
 
 
             </OwlCarousel>
+            
         </div>
     )
 }

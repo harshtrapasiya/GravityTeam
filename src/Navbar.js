@@ -17,28 +17,33 @@ export default function Navbar() {
 
     return (
         <>
+
             <div className={`blck_layers  ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}>
             </div>
 
-
             <div className='Topbar'>
+
                 <div className='Navbar_Section'>
                     <NavLink className='Logo_section' to='/' >
-                        <img  src={Logo} alt="" className='img-fluid' />
+                        <img src={Logo} alt="" className='img-fluid' />
                     </NavLink>
 
                     <ul className={`Navbar_ul ${menu === true ? 'active' : ''}`}>
+
                         <li className='Nav_items'>
-                            <NavLink className='Nav_link' to="/about-us" onClick={()=> setmenu(!menu)}>About Us</NavLink>
-                        </li>
-                        <li className='Nav_items'>
-                            <NavLink to='/Ourservices' className='Nav_link' onClick={()=> setmenu(!menu)}>Our Services</NavLink>
+                            <NavLink className='Nav_link' to="/about-us" onClick={() => setmenu(!menu)}>About Us</NavLink>
                         </li>
 
                         <li className='Nav_items'>
-                            <NavLink to='/workwithus' className='Nav_link' onClick={()=> setmenu(!menu)}>Work with Us</NavLink></li>
+                            <NavLink to='/Ourservices' className='Nav_link' onClick={() => setmenu(!menu)}>Our Services</NavLink>
+                        </li>
 
-                        <li className='Nav_items'><NavLink className='Nav_link' to='/Blog' onClick={()=> setmenu(!menu)}>Blog</NavLink></li>
+                        <li className='Nav_items'>
+                            <NavLink to='/workwithus' className='Nav_link' onClick={() => setmenu(!menu)}>Work with Us</NavLink>
+                        </li>
+
+                        <li className='Nav_items'><NavLink className='Nav_link' to='/Blog' onClick={() => setmenu(!menu)}>Blog</NavLink></li>
+
                     </ul>
 
                     <div className='get_touch'>
@@ -47,7 +52,9 @@ export default function Navbar() {
 
                         <MdClose className={`menu_icon d-lg-none d-block ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)} />
                     </div>
+
                 </div>
+
             </div>
         </>
     )
