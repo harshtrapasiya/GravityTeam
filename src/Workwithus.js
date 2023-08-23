@@ -25,21 +25,21 @@ export default function Workwithus() {
 
       <div className='container_About'>
         <div className='WorkWith_section'>
-          <div className='WorkWith_items order-1 order-sm-0 ' data-aos="fade-right">
+          <div className='WorkWith_items order-1 order-sm-0 ' data-aos="fade-right" data-aos-duration="1000">
             <div>    <h3 className='Work_txt'>Work With Us
             </h3>
               <p className='Webring_txt'>We bring together top talent, science olympiad winners and great people who are experts in their respective fields, combining decades of experience.</p></div>
           </div>
 
-          <div className='WorkWith_items order-0 order-sm-1' data-aos="fade-left">
+          <div className='WorkWith_items order-0 order-sm-1' data-aos="fade-left" data-aos-duration="2000">
             <img src={Imageabout} alt="" className='img-fluid' />
           </div>
 
-          <div className='WorkWith_items order-3 'data-aos="fade-right">
+          <div className='WorkWith_items order-3 'data-aos="fade-right" data-aos-duration="3000">
             <img src={Imagework} alt="" className='img-fluid' />
           </div>
 
-          <div className='WorkWith_items order-4' data-aos="fade-left">
+          <div className='WorkWith_items order-4' data-aos="fade-left" data-aos-duration="4000">
             <div>    <h3 className='Work_txt'>Our Mission
             </h3>
               <p className='Webring_txt'>At Gravity Team, a quantitative proprietary trading firm, we are on the mission to balance the supply and demand across crypto markets around the world.</p></div>

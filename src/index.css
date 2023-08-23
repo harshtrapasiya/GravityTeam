@@ -425,7 +425,7 @@ h6 {
 
   .about_items:nth-child(5),
   .about_items:nth-child(6) {
-    border-bottom: ridge;
+    border-bottom: 1px solid;
   }
 
   .about_items:nth-child(7) {
