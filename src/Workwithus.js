@@ -52,6 +52,7 @@ export default function Workwithus() {
 
                 </div>
                 <div className="Aboutteam_Content"><h1>Our Values & Culture</h1></div>
+
                 <div className='Focuse_section'>
 
                     <div className='boxes__item' data-aos="zoom-in-up">
@@ -82,7 +83,7 @@ export default function Workwithus() {
 
                             <div className='Focuse_imges'>
                                 <img src={Transparency} alt="" className='img-fluid' />
-                                <p>Focus On The Markets</p>
+                                <p>Transparency</p>
                             </div>
                             <p className='Focuse_Cotant'>We value meaningful, transparent and clear relationships with our stakeholders, be it exchanges, partners, token-projects or our colleagues. We prefer speaking our minds instead of staying silent. This also means that we discuss our successes and failures with everyone within the company and are open about the performance agreements with colleagues. By being completely honest and transparent, we hope to see the same from others in our pursuit to create better markets.By being completely honest and transparent, we hope to see the same from others in our pursuit to create better markets.</p>
                         </div>
@@ -99,7 +100,7 @@ export default function Workwithus() {
 
                             <div className='Focuse_imges'>
                                 <img src={Mentality} alt="" className='img-fluid' />
-                                <p>Focus On The Markets</p>
+                                <p>Owner Mentality</p>
                             </div>
                             <p className='Focuse_Cotant'>We value meaningful, transparent and clear relationships with our stakeholders, be it exchanges, partners, token-projects or our colleagues. We prefer speaking our minds instead of staying silent. This also means that we discuss our successes and failures with everyone within the company and are open about the performance agreements with colleagues. By being completely honest and transparent, we hope to see the same from others in our pursuit to create better markets.By being completely honest and transparent, we hope to see the same from others in our pursuit to create better markets.</p>
                         </div>
@@ -116,12 +117,71 @@ export default function Workwithus() {
 
                             <div className='Focuse_imges'>
                                 <img src={Discovery} alt="" className='img-fluid' />
-                                <p>Focus On The Markets</p>
+                                <p>Discovery
+                                </p>
                             </div>
-                            <p className='Focuse_Cotant'>First question we ask before starting any project: how will it make crypto markets better? With better, we mean better price discovery, more liquidity and fewer transaction costs. In doing so, we act as an invisible force that brings sanity to the markets. Our goal is to make crypto markets a better place for everyone and, in return, the markets naturally reward us.</p>
+                            <p className='Focuse_Cotant'>In the financial industry, the know-how is not shared much across enterprises. Therefore, to succeed, one has to re-invent. At Gravity Team, discovery is at the core of our DNA. We apply the scientific method to test our hypotheses rigorously. We encourage curiosity within and beyond the workplace.</p>
                         </div>
                     </div>
                 </div>
+
+                <div className="Aboutteam_Content"><h1>Our Perks</h1></div>
+                <div className='Our_Perks_section'>
+                    <div className='WORKPLACE_contant'>
+                        <p>WORKPLACE</p>
+                        <ul className='WORKPLACE_ul'>
+                            <li>Flexible working hours, casual work attire and startup atmosphere</li>
+                            <li>A-class work environment in Zunda Towers, free parking</li>
+                            <li>Paid company lunches & dinners, fully stocked kitchens</li>
+                            <li>Above-average market salary, stock options and profit sharing</li>
+                            <li>Learning & Development budget</li>
+                            <li>Top technology stack
+                            </li>
+                            <li>Company merchandise
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div className='WORKPLACE_contant'>
+                        <p>HEALTH & WELLNESS</p>
+                        <ul className='WORKPLACE_ul'>
+                            <li>Health & dental insurance
+                            </li>
+                            <li>Gym & sport activities incentives</li>
+                            <li>Location flexibility down the road</li>
+                            <li>Regular company events & parties
+                                Take</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div className="Aboutteam_Content"><h1>Take the next step</h1></div>
+
+                <div className='open_positions_box'>
+                    <div class="bg-hld">
+                        <div class="blob blob--purple u-purple-blob"></div>
+                        <div class="blob blob--gold u-gold-blob"></div>
+                        <div class="blob blob--gold-2 u-gold-blob"></div>
+                        <div class="blob blob--blue u-blue-blob"></div>
+                        <div class="blob blob--blue-2 u-blue-blob"></div>
+                    </div>
+
+                    <div className='Eager_contant'>
+                        <h3>Eager to join our team?</h3>
+                        <p>Take the next step towards your dream career!</p>
+                    </div>
+
+                    <div className='d-flex   justify-content-center'>
+                        <a class=" DISCOVER_btn" href="/">DISCOVER OPENINGS</a>
+                    </div>
+
+                </div>
+
+
             </div>
 
 

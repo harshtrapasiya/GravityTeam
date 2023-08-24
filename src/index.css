@@ -377,6 +377,16 @@ h6 {
     height: 6rem;
   }
 
+  .WORKPLACE_ul {
+    padding-left: 10%;
+  }
+
+  .open_positions_box {
+    padding: 3rem;
+}
+
+
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -520,6 +530,27 @@ h6 {
   .boxes__item {
     height: auto;
   }
+
+  .WORKPLACE_ul {
+    padding-left: 0;
+  }
+
+  .open_positions_box {
+    padding: 3rem;
+  }
+
+  .DISCOVER_btn {
+    width: 18rem;
+    height: 5rem;
+    font-size: 1.4rem;
+  }
+
+  .Eager_contant h3 {
+    font-size: 2.6rem;
+  }
+
+
+
 
 }
 
@@ -812,4 +843,27 @@ h6 {
   }
 
 
+  .WORKPLACE_ul {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
+  }
+
+  .open_positions_box {
+    display: block;
+    padding: 3rem;
+  }
+
+  .DISCOVER_btn {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+
+  .Eager_contant h3 {
+    font-size: 3rem;
+  }
+  .Eager_contant p {
+    font-size: 1.4rem;
+}
 }
