@@ -5,6 +5,8 @@ import Time from './img/time.svg'
 import arrow from './img/arrow.svg'
 import { Link, NavLink } from 'react-router-dom'
 import Isotope from './isotope'
+import Logo from "./img/gravity_logo.png";
+
 import 'bootstrap/dist/js/bootstrap.bundle'
 
 
@@ -51,22 +53,7 @@ export default function Blog() {
 
           </div>
           <div className='isotope_section'>
-            {/* 
-            <ul className='isotope_menu'>
-              <li>
-                <input type="radio" class="btn-check" name="options-outlined" id="isotope1" autocomplete="off" checked />
-                <label class="btn " for="isotope1">All</label>
-              </li>
-              <li>
-                <input type="radio" class="btn-check" name="options-outlined" id="isotope2" autocomplete="off" />
-                <label class="btn " for="isotope2">Conferences</label>
-              </li>
-              <li>
-                <input type="radio" class="btn-check" name="options-outlined" id="isotope3" autocomplete="off" />
-                <label class="btn " for="isotope3">Conferences</label>
-              </li>
 
-            </ul> */}
 
             <ul className='isotope_menu'>
               <li >All</li>
@@ -92,6 +79,8 @@ export default function Blog() {
 
 
         </div>
+        
+        
       </div>
 
     </div>
