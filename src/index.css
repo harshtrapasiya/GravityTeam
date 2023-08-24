@@ -81,6 +81,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Code+Pro:wght@900&family=Space+Grotesk:wght@300;400;600;700&family=Yesteryear&display=swap');
+
+/* @font-face {
+  font-display: swap;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/source-code-pro-v22-latin-900.woff2') format('woff2');
+} */
+
+
 html {
   font-size: 10px;
 }
@@ -173,7 +184,7 @@ h6 {
   overflow: hidden;
 }
 
- .loadrs_section svg{
+.loadrs_section svg {
   margin: 0 auto;
 }
 
@@ -208,10 +219,11 @@ h6 {
   perspective: 100px;
   -webkit-transform-style: preserve-3d;
   -webkit-perspective: 100px;
+  font-family: "Source Code Pro", sans-serif;
 }
 
 #txt>b {
-  height: 3.5rem;
+  height: 5rem;
   color: #979c9f;
   background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
   background-clip: text;
@@ -256,9 +268,11 @@ h6 {
 #txt>b:nth-child(9) {
   animation-delay: 2s;
 }
+
 #txt>b:nth-child(10) {
   animation-delay: 2.5s;
 }
+
 #txt>b:nth-child(11) {
   animation-delay: 2.25s;
 }
