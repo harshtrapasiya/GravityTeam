@@ -164,9 +164,9 @@ h6 {
 }
 
 
-.loadrs_section { 
+.loadrs_section {
   height: 100vh;
-  width: 100%; 
+  width: 100%;
   display: grid;
   place-items: center;
   position: relative;
@@ -174,7 +174,7 @@ h6 {
   overflow: hidden;
 }
 
-.loadrs_bg{
+.loadrs_bg {
   position: absolute;
   z-index: -1;
   opacity: 0.5;
@@ -182,7 +182,7 @@ h6 {
   width: 100%;
 }
 
-.loadrs_bg img{
+.loadrs_bg img {
   height: 100vh;
   width: 100%;
 }
@@ -577,6 +577,12 @@ h6 {
 
 
 
+  .isotope_menu li {
+    font-size: 1.4rem;
+  }
+
+
+
 
 }
 
@@ -643,6 +649,14 @@ h6 {
   .Work_txt {
     font-size: 3rem;
   }
+
+  .TopCrypto_section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+    margin-top: 6rem;
+  }
+
+
 
 }
 
@@ -898,5 +912,24 @@ h6 {
     right: -100%;
     top: -10%;
     width: 100%;
+  }
+
+  .isotope_menu li {
+    font-size: 1.4rem;
+  }
+
+  .isotope_menu {
+    gap: 1rem;
+  }
+
+  .Top_hading {
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 3.6rem;
+  }
+
+  .blog_heading h1 {
+    font-size: 5rem;
+    line-height: 8rem;
   }
 }

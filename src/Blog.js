@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Gradientbg from './img/gradient-bg.jpg'
 import Topcryptomarketmakers from './img/topcryptomarketmakers.png'
 import Time from './img/time.svg'
@@ -6,13 +6,20 @@ import arrow from './img/arrow.svg'
 import { Link, NavLink } from 'react-router-dom'
 import Isotope from './isotope'
 import Logo from "./img/gravity_logo.png";
-
 import 'bootstrap/dist/js/bootstrap.bundle'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 
 export default function Blog() {
+
+  useEffect(() => {
+    AOS.init();
+}, [])
+
 
   return (
     <div className='Blog_bg'>
@@ -28,7 +35,7 @@ export default function Blog() {
           </div>
 
           <div className='TopCrypto_section'>
-            <div className='TopCrypto_Contant'>
+            <div className='TopCrypto_Contant order-1 order-lg-0' data-aos="fade-right">
               <ul className=' Provision_Ul'>
                 <li>Crypto Community</li>
                 <li>Liquidity Provision</li>
@@ -47,11 +54,13 @@ export default function Blog() {
 
 
             </div>
-            <div className=''>
+
+            <div className='order-0 order-lg-1'  data-aos="fade-left">
               <img src={Topcryptomarketmakers} className='img-fluid' alt="" />
             </div>
 
           </div>
+
           <div className='isotope_section'>
 
 
@@ -71,6 +80,7 @@ export default function Blog() {
               <li>Uncategorized</li>
               <li>Weekly Crypto Markets Insights</li>
             </ul>
+
             <div>
 
             </div>
@@ -78,9 +88,32 @@ export default function Blog() {
           </div>
 
 
+          <footer className='Footer_section'>
+
+            <div className='Footer_logo_section'>
+              <div>
+                <h6 className='Gravity_txt'>Gravity Team</h6>
+                <ul className='about_Ul mt-4'>
+                  <li><Link>About Us</Link></li>
+                  <li><Link>Work with Us</Link></li>
+                </ul>
+              </div>
+              <div>
+                <img src={Logo} alt="" />
+              </div>
+            </div>
+
+            <div className='Privacy_Policy'>
+              <Link>Terms of Use & Privacy Policy</Link>
+              <Link>©2022 Gravity Team. All Rights Reserved</Link>
+            </div>
+
+          </footer>
+
+
         </div>
-        
-        
+
+
       </div>
 
     </div>
