@@ -11,6 +11,7 @@ import Aboutus from './Aboutus'
 import Ourservices from './Ourservices'
 import Workwithus from './Workwithus'
 import Blog from './Blog'
+import Getintouch from './Getintouch'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
       <Route path='/Ourservices' element={<Ourservices />} />
       <Route path='/workwithus' element={<Workwithus />} />
       <Route path='/Blog' element={<Blog />} />
+      <Route path='/getintouch' element={<Getintouch/>} />
     </Routes>
   </BrowserRouter>
 

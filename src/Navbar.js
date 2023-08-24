@@ -47,7 +47,7 @@ export default function Navbar() {
                     </ul>
 
                     <div className='get_touch'>
-                        <Link className='getin_Touch'>Get In Touch</Link>
+                        <Link className='getin_Touch' to='/getintouch'>Get In Touch</Link>
                         <RiMenu3Fill className={`menu_icon d-lg-none d-block ${menu === true ? 'd-none' : ''}`} onClick={() => setmenu(!menu)} />
 
                         <MdClose className={`menu_icon d-lg-none d-block ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)} />

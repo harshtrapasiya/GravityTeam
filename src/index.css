@@ -383,7 +383,7 @@ h6 {
 
   .open_positions_box {
     padding: 3rem;
-}
+  }
 
 
 
@@ -863,7 +863,14 @@ h6 {
   .Eager_contant h3 {
     font-size: 3rem;
   }
+
   .Eager_contant p {
     font-size: 1.4rem;
-}
+  }
+
+  .Backgroundfrom {
+    right: -100%;
+    top: -10%;
+    width: 100%;
+  }
 }
