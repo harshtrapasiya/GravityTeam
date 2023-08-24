@@ -5,6 +5,8 @@ body {
   overflow-x: hidden;
   font-size: 1.6rem;
   color: white;
+  /* background: linear-gradient(to bottom, #141619, #1E2935, #141619); */
+
 }
 
 body::-webkit-scrollbar {
@@ -361,6 +363,20 @@ h6 {
     padding: 6rem 10rem;
     margin-top: 8rem;
   }
+
+  .Focuse_items {
+    padding: 3rem;
+  }
+
+  .mtopmin {
+    margin-top: -115px;
+  }
+
+  .Focuse_imges img {
+    width: 6rem;
+    height: 6rem;
+  }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -480,6 +496,31 @@ h6 {
     padding: 5rem 8rem;
     margin-top: 6rem;
   }
+
+  .Focuse_section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 4rem;
+    grid-auto-rows: 1fr;
+  }
+
+  .mtopmin {
+    margin-top: 0;
+  }
+
+  .Focuse_items {
+    padding: 2rem;
+
+  }
+
+  .Focuse_imges img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .boxes__item {
+    height: auto;
+  }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -744,5 +785,31 @@ h6 {
     border-bottom: 2px solid;
   }
 
- 
+
+
+  .Focuse_section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 4rem;
+    grid-auto-rows: 1fr;
+  }
+
+  .mtopmin {
+    margin-top: 0;
+  }
+
+  .Focuse_items {
+    padding: 2rem;
+
+  }
+
+  .Focuse_imges img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .boxes__item {
+    height: auto;
+  }
+
+
 }

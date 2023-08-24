@@ -1003,3 +1003,101 @@ overflow-x: hidden;
     font-weight: 400;
     margin-top: 2rem;
 }
+
+.Focuse_section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    margin-top: 6rem;
+}
+.boxes__item{
+
+    height: fit-content;
+}
+
+
+.mtopmin{
+    margin-top: -96px;
+}
+
+
+.Focuse_items{
+    position: relative;
+    z-index: 1;
+    padding: 4rem;
+    
+    
+}
+
+.Focuse_imges {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.Focuse_imges p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Focuse_Cotant{
+    margin-top: 2rem;
+}
+
+.boxes__item-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: .6;
+}
+
+ .boxes__item-purple-blob {
+    top: -200px;
+    transform: scale3d(1.4, 1, 1);
+}
+
+.u-purple-blob {
+    position: absolute;
+    pointer-events: none;
+    width: 572px;
+    height: 460px;
+    background: url("./img/purpleblob.png");
+    background-size: 100% 100%;
+}
+
+ .boxes__item-gold-blob {
+    bottom: -120px;
+    left: -140px;
+}
+
+.u-gold-blob {
+    position: absolute;
+    pointer-events: none;
+    width: 337px;
+    height: 327px;
+    background: url("./img/goldblob.png");
+    background-size: 100% 100%;
+}
+
+.boxes__item {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+ .boxes__item-blue-blob {
+    right: -240px;
+    bottom: -200px;
+}
+
+.u-blue-blob {
+    position: absolute;
+    pointer-events: none;
+    width: 564px;
+    height: 398px;
+    background: url("./img/blueblob.png");
+    background-size: 100% 100%;
+}
