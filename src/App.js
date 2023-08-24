@@ -14,11 +14,11 @@ import React, { useEffect, useState } from 'react'
 function App() {
   const [loaders, setLoader] = useState(true)
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoader(false)
-  //   }, 3000)
-  // })
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false)
+    }, 3000)
+  })
   return (
 
     loaders ? <Loaders /> :
