@@ -41,6 +41,7 @@ export default function Getintouch() {
                 firstname: '',
                 lastname: '',
                 email: '',
+                message: '',
               }}
               onSubmit={values => {
                 console.log(values);
@@ -63,6 +64,18 @@ export default function Getintouch() {
                   <div className='First_items'>
                     <Field name="email" validate={validateEmail} placeholder="Email" />
                     {errors.email && touched.email && <div className='error_txt'>{errors.email}</div>}
+                  </div>
+                  <div className='First_items'>
+                    <Field
+                      as="textarea"
+                      id="message"
+                      validate={validateUsername}
+                      name="message"
+                      placeholder="Anything else you would like to add?"
+                      rows="4"
+                      cols="50"
+                    />
+                    {errors.message && touched.message && <div className='error_txt'>{errors.message}</div>}
                   </div>
 
                   <div className='What_section'>

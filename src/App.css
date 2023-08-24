@@ -239,7 +239,7 @@
 
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 9997;
     background: #141619;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -1287,10 +1287,11 @@
     margin-top: 6.4rem;
 }
 
-.getin_bg{
+.getin_bg {
     position: relative;
     overflow: hidden;
 }
+
 .First_items {
     margin-top: 2rem;
 }
@@ -1341,10 +1342,11 @@
     }
 }
 
-.What_section{
+.What_section {
     margin-top: 3rem;
 }
-.looking_check{
+
+.looking_check {
     margin-top: 2rem;
 }
 
@@ -1352,7 +1354,7 @@
     width: 1.8rem;
     height: 1.8rem;
     margin-top: .25em;
-    background-color:transparent;
+    background-color: transparent;
     background-image: var(--bs-form-check-bg-image);
     background-size: contain;
     border: var(--bs-border-width) solid #D2AB67;
@@ -1369,12 +1371,187 @@
     box-shadow: none;
 }
 
-.Backgroundfrom{
+.Backgroundfrom {
     position: absolute;
-    right:-45% ;
+    right: -45%;
     top: -40%;
     opacity: 0.6;
     transform: translate(-100px, 150px) rotate(60deg) scale(1.8, 1.8);
     width: 50%;
     z-index: -1;
+}
+
+.First_items textarea {
+    width: 100%;
+    background: transparent;
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border-image: linear-gradient(6deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%) 1;
+    outline: 0;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Blog */
+
+.blog_heading {
+    margin-top: 6.4rem;
+    text-align: center;
+}
+
+.blog_heading h1 {
+    font-size: 7.4rem;
+    line-height: 13rem;
+}
+
+.blog_heading p {
+    color: #e5e5e5;
+    font-size: 2rem;
+}
+
+.Blog_bg {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.Gradientbg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    left: 0;
+    opacity: 0.6;
+}
+
+.Gradientbg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(20, 22, 25, 0) 30%, #141619);
+}
+
+.TopCrypto_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.TopCrypto_Contant {}
+
+.Provision_Ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Provision_Ul li {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: #665dcd;
+}
+
+.Top_hading {
+    width: 80%;
+    margin: 1.5rem 0;
+}
+
+.Liquidity_txt {
+    color: #e5e5e5;
+    font-size: 2rem;
+}
+
+.date_ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    color: #e5e5e5;
+
+}
+
+.date_ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.date_ul li img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.isotope_section {
+    margin-top: 6.4rem;
+}
+
+.isotope_menu {}
+
+/* .isotope_menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.isotope_menu li {}
+
+
+.isotope_menu li .btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: transparent;
+    border-color: var(--bs-btn-active-border-color);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-image: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%) 1;
+}
+
+.isotope_menu li .btn {
+    border: 1px solid white;
+    color: white;
+    border-radius: 0;
+    font-size: 1.4rem;
+}
+
+.isotope_menu li .btn-check+.btn:hover {
+    color: white;
+    background-color: transparent;
+    border-color: inherit;
+} */
+
+.isotope_menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.isotope_menu li {
+    padding: 0.4rem 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.isotope_menu li.active {
+
+    background-color: #665DCD;
+   border: 1px solid #665DCD;
+}
+
+.isotope_menu li:hover {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-image: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%) 1;
+    background-color: transparent;
 }
