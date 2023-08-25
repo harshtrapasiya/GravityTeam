@@ -16,10 +16,10 @@ const Loaders = () => {
 
             <div className='bg_linear'></div>
 
-
             <div className='d-grid'>
+
                 <Vortex
-                className="txtss"
+                    className="txtss"
                     visible={true}
                     height="100"
                     width="100"
@@ -28,9 +28,20 @@ const Loaders = () => {
                     wrapperClass="vortex-wrapper"
                     colors={['#665DCD', '#5FA4E6', '#D2AB67', '#665DCD', '#5FA4E6', '#D2AB67']}
                 />
+
                 <div class="txt" id="txt">
-                    <b>G</b><b>R</b><b>A</b><b>V</b><b>I</b><b>T</b><b>Y</b>
-                    &nbsp;  <b>T</b><b>E</b><b>A</b><b>M</b>
+                    <b>G</b>
+                    <b>R</b>
+                    <b>A</b>
+                    <b>V</b>
+                    <b>I</b>
+                    <b>T</b>
+                    <b>Y</b>
+                    &nbsp;
+                    <b>T</b>
+                    <b>E</b>
+                    <b>A</b>
+                    <b>M</b>
                 </div>
             </div>
         </div>

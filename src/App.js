@@ -19,6 +19,7 @@ function App() {
       setLoader(false)
     }, 3000)
   })
+
   return (
 
     loaders ? <Loaders /> :

@@ -178,7 +178,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: absolute;
-  background-image: linear-gradient(45deg, rgb(6, 56, 109) , #1E2935 , #141619 , rgba(20, 22, 25, 0) );
+  background-image: linear-gradient(45deg, rgb(6, 56, 109), #1E2935, #141619, rgba(20, 22, 25, 0));
   background-size: 600% 100%;
   animation: gradient 5s linear infinite;
   animation-direction: alternate;
@@ -187,8 +187,13 @@ h6 {
 }
 
 @keyframes gradient {
-  0% {background-position: 0%}
-  100% {background-position: 100%}
+  0% {
+    background-position: 0%
+  }
+
+  100% {
+    background-position: 100%
+  }
 }
 
 
@@ -361,6 +366,9 @@ h6 {
     width: 85%;
   }
 
+  .LongFocus_section {
+    width: 100%;
+  }
 
 }
 
@@ -424,6 +432,14 @@ h6 {
 
   .isotope_Contant {
     width: 90%;
+  }
+
+  .Top_hading {
+    width: 100%;
+  }
+
+  .LongFocus_section {
+    width: 100%;
   }
 
 }
@@ -497,6 +513,12 @@ h6 {
     grid-gap: 3rem;
     margin-top: 6rem;
   }
+
+  .LongFocus_section {
+    width: 100%;
+    margin-top: 6rem;
+  }
+
 
 
 
@@ -620,7 +642,25 @@ h6 {
   }
 
 
+  .Early_Stage_Section li {
+    padding: 1rem 1rem;
+  }
 
+  .LongFocus_Items {
+    padding: 3rem;
+  }
+
+  .Trading_section .Trading_items {
+    padding: 3rem;
+  }
+
+  .Trading_section .Trading_items h3 {
+    font-size: 3rem;
+  }
+
+  .LongFocus_Contant h3 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -799,6 +839,34 @@ h6 {
     margin-top: 0;
   }
 
+
+
+  .Early_Stage_Section li {
+    padding: 1rem 1rem;
+  }
+
+  .LongFocus_Items {
+    padding: 3rem;
+  }
+
+  .Trading_section .Trading_items {
+    padding: 3rem;
+  }
+
+  .Trading_section .Trading_items h3 {
+    font-size: 3rem;
+  }
+
+  .LongFocus_Contant h3 {
+    font-size: 3rem;
+  }
+
+  .Trading_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+    margin-top: 3rem;
+}
 
 
 
