@@ -80,16 +80,15 @@ body::-webkit-scrollbar-thumb {
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Code+Pro:wght@900&family=Space+Grotesk:wght@300;400;600;700&family=Yesteryear&display=swap');
-
-/* @font-face {
-  font-display: swap;
-  font-family: 'Source Code Pro';
+/* inter-600 - latin */
+@font-face {
+  font-family: "Aline";
   font-style: normal;
-  font-weight: 900;
-  src: url('../fonts/source-code-pro-v22-latin-900.woff2') format('woff2');
-} */
+  font-weight: 600;
+  src: local(""),
+    /* Modern Browsers */
+    url("../fonts/AlineRegular-AL792.ttf") format("truetype");
+}
 
 
 html {
@@ -219,7 +218,8 @@ h6 {
   perspective: 100px;
   -webkit-transform-style: preserve-3d;
   -webkit-perspective: 100px;
-  font-family: "Source Code Pro", sans-serif;
+  font-family: Aline, sans-serif;
+
 }
 
 #txt>b {
@@ -339,6 +339,10 @@ h6 {
     width: 60%;
   }
 
+  .isotope_Contant {
+    width: 85%;
+  }
+
 
 }
 
@@ -399,6 +403,83 @@ h6 {
   .Contactbg1 {
     left: -20%;
   }
+
+  .isotope_Contant {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+
+  .blck_layers {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.158);
+    z-index: 1;
+    backdrop-filter: blur(4px);
+  }
+
+  .Navbar_Section {
+    padding: 2rem 3rem;
+  }
+
+  .Navbar_ul {
+    display: block;
+    background-color: white;
+    position: absolute;
+    width: 60%;
+    left: -60%;
+    height: 100vh;
+    top: 0;
+    padding: 3rem;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  .Logo_section {
+    width: 15rem;
+  }
+
+  .Navbar_ul.active {
+    left: 0;
+  }
+
+
+  .Nav_items {
+    margin-bottom: 2rem;
+  }
+
+  .Nav_items .Nav_link {
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 1.8rem;
+    display: inline-block;
+  }
+
+  .Nav_items .Nav_link::after {
+    background: #080101;
+  }
+
+  .WorkWith_items {
+    padding: 2rem;
+  }
+
+  .Work_txt {
+    font-size: 3rem;
+  }
+
+  .TopCrypto_section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+    margin-top: 6rem;
+  }
+
 
 
 }
@@ -509,6 +590,15 @@ h6 {
 
   .open_positions_box {
     padding: 3rem;
+  }
+
+  .isotope_Contant {
+    width: 100%;
+    grid-gap: 3rem;
+  }
+
+  .isotope_images {
+    height: 20rem;
   }
 
 
@@ -681,84 +771,21 @@ h6 {
     font-size: 1.4rem;
   }
 
-
-
-
-}
-
-@media only screen and (max-width: 991px) {
-  html {
-    font-size: 8px;
-  }
-
-  .blck_layers {
-    width: 100%;
-    position: fixed;
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.158);
-    z-index: 1;
-    backdrop-filter: blur(4px);
-  }
-
-  .Navbar_Section {
-    padding: 2rem 3rem;
-  }
-
-  .Navbar_ul {
-    display: block;
-    background-color: white;
-    position: absolute;
-    width: 60%;
-    left: -60%;
-    height: 100vh;
-    top: 0;
-    padding: 3rem;
-    transition: 0.5s;
-    z-index: 1;
-  }
-
-  .Logo_section {
-    width: 15rem;
-  }
-
-  .Navbar_ul.active {
-    left: 0;
-  }
-
-
-  .Nav_items {
-    margin-bottom: 2rem;
-  }
-
-  .Nav_items .Nav_link {
-    color: black;
-    text-transform: uppercase;
-    position: relative;
-    font-size: 1.8rem;
-    display: inline-block;
-  }
-
-  .Nav_items .Nav_link::after {
-    background: #080101;
-  }
-
-  .WorkWith_items {
-    padding: 2rem;
-  }
-
-  .Work_txt {
-    font-size: 3rem;
-  }
-
-  .TopCrypto_section {
+  .isotope_Contant {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 3rem;
-    margin-top: 6rem;
+    width: 75%;
+  }
+
+  .mtop4 {
+    margin-top: 0;
   }
 
 
 
+
 }
+
 
 @media only screen and (max-width: 575px) {
   html {
@@ -1031,5 +1058,25 @@ h6 {
   .blog_heading h1 {
     font-size: 5rem;
     line-height: 8rem;
+  }
+
+  .isotope_Contant {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+    width: 100%;
+  }
+
+  .mtop4 {
+    margin-top: 0;
+  }
+
+  .isotope_images {
+    height: 20rem;
+  }
+
+  .GetFree_btn {
+    width: 20rem;
+    height: 5rem;
+    ;
   }
 }

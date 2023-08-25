@@ -4,8 +4,15 @@ import Topcryptomarketmakers from './img/topcryptomarketmakers.png'
 import Time from './img/time.svg'
 import arrow from './img/arrow.svg'
 import { Link, NavLink } from 'react-router-dom'
-import Isotope from './isotope'
 import Logo from "./img/gravity_logo.png";
+import crypto101 from "./img/crypto101.png";
+import Solanabreakpoint from "./img/Solanabreakpoint.png";
+import Tokenlondon from "./img/tokenlondon.png";
+import slippageherofinal from "./img/slippageherofinal.png";
+import LiquiditMarkets from "./img/LiquiditMarkets.png";
+import WeeklyCryptomarket from "./img/WeeklyCryptomarket.png";
+import Contactbg1 from './img/Contact-bg1.png'
+import Contactbg2 from './img/Contact-bg2.png'
 import 'bootstrap/dist/js/bootstrap.bundle'
 
 import AOS from 'aos';
@@ -18,7 +25,7 @@ export default function Blog() {
 
   useEffect(() => {
     AOS.init();
-}, [])
+  }, [])
 
 
   return (
@@ -55,7 +62,7 @@ export default function Blog() {
 
             </div>
 
-            <div className='order-0 order-lg-1'  data-aos="fade-left">
+            <div className='order-0 order-lg-1' data-aos="fade-left">
               <img src={Topcryptomarketmakers} className='img-fluid' alt="" />
             </div>
 
@@ -83,9 +90,179 @@ export default function Blog() {
 
             <div>
 
+              <div className='isotope_Contant'>
+
+                <div className='main_items' data-aos="fade-up" data-aos-duration="2000">
+
+                  <div className="blog-listing-item__bg">
+                    <div className="blog-listing-item__purple-blob u-purple-blob"></div>
+                    <div className="blog-listing-item__gold-blob u-gold-blob"></div>
+                    <div className="blog-listing-item__blue-blob u-blue-blob"></div>
+                  </div>
+
+                  <div className='isotope_items'>
+                    <div className='isotope_images'>
+                      <img src={crypto101} className='img-fluid' alt="" />
+                    </div>
+                    <ul className="Crypto_Ul"><li>Crypto Market Making</li><li>Liquidity Provision</li></ul>
+                    <p className="HashUp_txt">Crypto Trading 101: Learn the Basics of Trading Crypto</p>
+                    <p className='we_are_txt'>
+                      "You got any Bitcoin?" One of the common openers in many social settings that leads the conversation into a spiral of whether crypto is a good investment. Today, we don't bother about the whys but rather discuss how to get your hands on some crypto and show you how to read the trading dashboard.  </p>
+                    <ul className="date_ul justify-content-between ">
+                      <li>May 13 2022</li>
+                      <li><img src={Time} alt="" /><p>4 minutes</p></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='main_items mtop4' data-aos="fade-up" data-aos-duration="2000">
+
+                  <div className="blog-listing-item__bg">
+                    <div className="blog-listing-item__purple-blob u-purple-blob"></div>
+                    <div className="blog-listing-item__gold-blob u-gold-blob"></div>
+                    <div className="blog-listing-item__blue-blob u-blue-blob"></div>
+                  </div>
+
+                  <div className='isotope_items'>
+                    <div className='isotope_images'>
+                      <img src={slippageherofinal} className='img-fluid' alt="" />
+                    </div>
+                    <ul className="Crypto_Ul"><li>Crypto Market Making</li><li>Liquidity Provision</li></ul>
+                    <p className="HashUp_txt">What is Slippage in Crypto & Its Impact on Your Profits</p>
+                    <p className='we_are_txt'>
+
+                      Welcome to the world of crypto trading. As you delve deeper into this market, you'll come across many technical terms and concepts that may initially take time to grasp. One of these concepts is slippage. But don't worry; we're here to break it down for you and make it easy to understand.                                              </p>
+                    <ul className="date_ul justify-content-between ">
+                      <li>Jan 13 2022</li>
+                      <li><img src={Time} alt="" /><p>19 minutes</p></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='main_items' data-aos="fade-up" data-aos-duration="2000">
+
+                  <div className="blog-listing-item__bg">
+                    <div className="blog-listing-item__purple-blob u-purple-blob"></div>
+                    <div className="blog-listing-item__gold-blob u-gold-blob"></div>
+                    <div className="blog-listing-item__blue-blob u-blue-blob"></div>
+                  </div>
+
+                  <div className='isotope_items'>
+                    <div className='isotope_images'>
+                      <img src={Tokenlondon} className='img-fluid' alt="" />
+                    </div>
+                    <ul className="Crypto_Ul"><li>Conferences</li></ul>
+                    <p className="HashUp_txt">TOKEN2049 London Conference Highlights</p>
+                    <p className='we_are_txt'>
+
+                      Our last 2022 crypto conferences series article covers TOKEN2049 London, which attracted primarily C-level attendees from 1,000 companies to talk about all things crypto in the capital of financial markets.                                              </p>
+                    <ul className="date_ul justify-content-between ">
+                      <li>May 13 2022</li>
+                      <li><img src={Time} alt="" /><p>6 minutes</p></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='main_items mtop4' data-aos="fade-up" data-aos-duration="2000">
+
+                  <div className="blog-listing-item__bg">
+                    <div className="blog-listing-item__purple-blob u-purple-blob"></div>
+                    <div className="blog-listing-item__gold-blob u-gold-blob"></div>
+                    <div className="blog-listing-item__blue-blob u-blue-blob"></div>
+                  </div>
+
+                  <div className='isotope_items'>
+                    <div className='isotope_images'>
+                      <img src={Solanabreakpoint} className='img-fluid' alt="" />
+                    </div>
+                    <ul className="Crypto_Ul"><li>Conferences</li><li>Crypto Community</li></ul>
+                    <p className="HashUp_txt">Solana Breakpoint – Conference Summary</p>
+                    <p className='we_are_txt'>
+
+
+                      Many novel announcements were made as Solana Breakpoint celebrated its ecosystem in Lisbon, Portugal, with over 70 speakers and 3,500 attendees from the Solana community.                                                                                        </p>
+                    <ul className="date_ul justify-content-between ">
+                      <li>Dec 13 2022</li>
+                      <li><img src={Time} alt="" /><p>5 minutes</p></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='main_items' data-aos="fade-up" data-aos-duration="2000">
+
+                  <div className="blog-listing-item__bg">
+                    <div className="blog-listing-item__purple-blob u-purple-blob"></div>
+                    <div className="blog-listing-item__gold-blob u-gold-blob"></div>
+                    <div className="blog-listing-item__blue-blob u-blue-blob"></div>
+                  </div>
+
+                  <div className='isotope_items'>
+                    <div className='isotope_images'>
+                      <img src={LiquiditMarkets} className='img-fluid' alt="" />
+                    </div>
+                    <ul className="Crypto_Ul"><li>Crypto Market Making</li>
+                      <li>Liquidity Provision</li>
+                    </ul>
+                    <p className="HashUp_txt">What Is Liquidity in Cryptocurrency Markets?</p>
+                    <p className='we_are_txt'>
+
+
+                      Liquidity plays a fundamental role within the cryptocurrency space. Among other things, it enables market participants to transact easily, thus ensuring a healthy functioning market.                                                                                       </p>
+                    <ul className="date_ul justify-content-between ">
+                      <li>May 13 2022</li>
+                      <li><img src={Time} alt="" /><p>10 minutes</p></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className='main_items mtop4' data-aos="fade-up" data-aos-duration="2000">
+
+                  <div className="blog-listing-item__bg">
+                    <div className="blog-listing-item__purple-blob u-purple-blob"></div>
+                    <div className="blog-listing-item__gold-blob u-gold-blob"></div>
+                    <div className="blog-listing-item__blue-blob u-blue-blob"></div>
+                  </div>
+
+                  <div className='isotope_items'>
+                    <div className='isotope_images'>
+                      <img src={WeeklyCryptomarket} className='img-fluid' alt="" />
+                    </div>
+                    <ul className="Crypto_Ul"><li>Weekly Crypto Markets Insights</li></ul>
+                    <p className="HashUp_txt">Weekly Crypto Market Insights – 19th December</p>
+                    <p className='we_are_txt'>
+                      Prepare your coffee - it's Monday & time for the Weekly Crypto Market Insights! We collected the top news & market metrics, so you don't have to.                                                                                                                                    </p>
+                    <ul className="date_ul justify-content-between ">
+                      <li>Dec 19 2022</li>
+                      <li><img src={Time} alt="" /><p>5 minutes</p></li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
 
+            <div className='Contact_section'>
+              <div className="Aboutteam_Content ">
+                <h1>Contact Us </h1>
+                <p>We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or a project looking for liquidity; an algorithmic trader or a software developer looking to improve the markets with us or just have a great idea you can’t wait to share with us!</p>
+                <Link className='get_btn'>Get in touch</Link>
+              </div>
+
+              <div className='Contactbg1'>
+                <img src={Contactbg1} className='img-fluid' alt="" />
+              </div>
+
+              <div className='Contactbg2'>
+                <img src={Contactbg2} className='img-fluid' alt="" />
+              </div>
+
+            </div>
+
+
           </div>
+
+
 
 
           <footer className='Footer_section'>

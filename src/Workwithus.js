@@ -176,7 +176,7 @@ export default function Workwithus() {
                     </div>
 
                     <div className='d-flex   justify-content-center'>
-                        <a class=" DISCOVER_btn" href="/">DISCOVER OPENINGS</a>
+                        <Link class=" DISCOVER_btn" href="/">DISCOVER OPENINGS</Link>
                     </div>
 
                 </div>

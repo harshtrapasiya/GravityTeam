@@ -4,21 +4,31 @@ import Logo from './img/gravity_logo.png'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { RiMenu3Fill } from 'react-icons/ri';
 import { MdClose } from 'react-icons/md';
+import { useEffect } from 'react';
 
 
 export default function Navbar() {
     const [menu, setmenu] = useState(false)
 
-    if (menu === true) {
-        document.body.classList.add('overflow-hidden')
-    } if (menu === false) {
-        document.body.classList.remove('overflow-hidden')
-    }
+
+    // if (menu === true) {
+    //     
+    // } if (menu === false) {
+    //     document.body.classList.remove('overflow-hidden')
+    // }
+
+
+
+
 
     return (
         <>
+            
+            {
+                (menu === true) ? document.body.classList.add('overflow-hidden') : document.body.classList.remove('overflow-hidden')
+            }
 
-            <div className={`blck_layers  ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}>
+            <div className={`blck_layers ${menu === true ? 'd-block' : 'd-none'}`} onClick={() => setmenu(!menu)}>
             </div>
 
             <div className='Topbar'>
