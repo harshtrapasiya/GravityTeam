@@ -14,6 +14,9 @@ const Loaders = () => {
                 <img src={Gradientbg} className='img-fluid' alt="" />
             </div>
 
+            <div className='bg_linear'></div>
+
+
             <div className='d-grid'>
                 <Vortex
                 className="txtss"
