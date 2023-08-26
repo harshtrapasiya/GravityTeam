@@ -21,7 +21,11 @@ import 'aos/dist/aos.css';
 
 
 
+
+
 export default function Blog() {
+
+  
 
   useEffect(() => {
     AOS.init();
@@ -87,6 +91,8 @@ export default function Blog() {
               <li>Uncategorized</li>
               <li>Weekly Crypto Markets Insights</li>
             </ul>
+
+          
 
             <div>
 
@@ -246,7 +252,7 @@ export default function Blog() {
               <div className="Aboutteam_Content ">
                 <h1>Contact Us </h1>
                 <p>We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or a project looking for liquidity; an algorithmic trader or a software developer looking to improve the markets with us or just have a great idea you can’t wait to share with us!</p>
-                <Link className='get_btn'>Get in touch</Link>
+                <Link className='get_btn' to='/getintouch'>Get in touch</Link>
               </div>
 
               <div className='Contactbg1'>

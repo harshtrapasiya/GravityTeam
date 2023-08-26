@@ -370,6 +370,17 @@ h6 {
     width: 100%;
   }
 
+  .Join_heading h2 {
+    width: 70%;
+  }
+
+  .OurInvestments_Sliders .item {
+    aspect-ratio: 1/1.7;
+  }
+
+  .Top_hading {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -440,6 +451,10 @@ h6 {
 
   .LongFocus_section {
     width: 100%;
+  }
+
+  .Footer_section {
+    padding: 9rem;
   }
 
 }
@@ -607,7 +622,7 @@ h6 {
   }
 
   .Footer_section {
-    padding: 6rem 10rem;
+    padding: 6rem 6rem;
     margin-top: 8rem;
   }
 
@@ -660,6 +675,19 @@ h6 {
 
   .LongFocus_Contant h3 {
     font-size: 3rem;
+  }
+
+  .bg_upperright2 {
+    top: 150%;
+  }
+
+  .bg_upperright {
+    top: 100%;
+    right: 10%;
+  }
+
+  .OurInvestments_Sliders .item {
+    aspect-ratio: 1/1.5;
   }
 }
 
@@ -777,7 +805,7 @@ h6 {
   }
 
   .Footer_section {
-    padding: 5rem 8rem;
+    padding: 4rem 2rem;
     margin-top: 6rem;
   }
 
@@ -866,10 +894,43 @@ h6 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 3rem;
     margin-top: 3rem;
-}
+  }
 
+  .bg_upperright {
+    width: 80%;
+  }
 
+  .bg_upperright img .bg_upperright2 img {
+    width: 100%;
+  }
 
+  .bg_upperright2 {
+    top: 150%;
+    right: 0;
+  }
+
+  .Philanthropy_items {
+    padding: 2rem;
+  }
+
+  .TechChill_contant {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Techchill_logo {
+    margin: 0 auto;
+  }
+
+  .OurInvestments_Sliders .item {
+    aspect-ratio: 1/1;
+  }
+
+  .LongFocus_Items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
 }
 
 
@@ -1164,5 +1225,59 @@ h6 {
     width: 20rem;
     height: 5rem;
     ;
+  }
+
+  .bg_upperright {
+    width: 80%;
+  }
+
+  .bg_upperright img .bg_upperright2 img {
+    width: 100%;
+  }
+
+  .bg_upperright2 {
+    top: 150%;
+    right: 0;
+  }
+
+
+
+  .LongFocus_Items {
+    padding: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+
+  .Trading_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Trading_section .Trading_items h3 {
+    font-size: 2.6rem;
+  }
+
+  .Early_Stage_Section li {
+    padding: 1rem 2rem;
+    gap: 1rem;
+    font-size: 1.4rem;
+    white-space: nowrap;
+  }
+
+  .Early_Stage_Section ul {
+    overflow-x: scroll;
+    justify-content: start;
+  }
+
+  .Trading_section .Trading_items {
+    padding: 2rem;
+  }
+
+  .LongFocus_Contant h3 {
+    font-size: 2.6rem;
+
+  }
+  
+  .Formik_From {
+    width: 100%;
   }
 }

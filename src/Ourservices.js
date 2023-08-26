@@ -65,7 +65,7 @@ export default function Ourservices() {
         </div>
 
         <div className='LongFocus_section'>
-          <div className='LongFocus_Items'>
+          <div className='LongFocus_Items' data-aos="zoom-in-up">
             <div className='LongFocus_Contant'>
               <h3>Long Term Focus</h3>
               <p>Gravity Team partners with remarkable crypto projects. We invest in building long-term, sustainable relationships and support our crypto projects along their growth journey with our industry expertise and network. Our partnerships are dynamic, enabling flexibility and speedy acceleration.</p>
@@ -75,17 +75,16 @@ export default function Ourservices() {
             </div>
           </div>
           <div className='Trading_section'>
-            <div className='Trading_items'>
+            <div className='Trading_items' data-aos="zoom-in-up">
               <h3>Trusted Exchange Network</h3>
               <p>Our state of the art proprietary trading technology enables us to swiftly and reliably trade over 170+ digital assets and 1,200+ cryptocurrency pairs. Thanks to our advanced technology, we can quickly begin market making once a token is traded on our partner exchange. Yours could be one of them!</p>
             </div>
-            <div className='Trading_items'>
+
+            <div className='Trading_items' data-aos="zoom-in-up">
               <h3>Trading 1,200+ Crypto-Asset Pairs</h3>
               <p>We service Centralized Spot and Derivatives fiat to crypto exchanges, providing 24/7/365 liquidity and coin market making services. We are a trusted partner and market makers for 25+ global and emerging exchanges in 15+ countries globally, making up to 30% of the trading volume on some of our partner exchanges. We also offer proactive support with getting listed on our partner as well as other leading Tier 1 and Tier 2 exchanges.</p>
             </div>
           </div>
-
-
 
         </div>
 
@@ -115,7 +114,7 @@ export default function Ourservices() {
 
       </div>
 
-     
+
 
 
 

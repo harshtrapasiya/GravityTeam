@@ -42,7 +42,7 @@ export default function Home() {
 
         <h1>Balancing Crypto Markets </h1>
         <p>Our fully automated proprietary quantitative trading software provides 24/7 liquidity to 170+ crypto assets across 25+ centralized spot and derivative crypto exchanges.</p>
-        <Link className='get_btn'>Get in touch</Link>
+        <Link className='get_btn' to='/getintouch'>Get in touch</Link>
       </div>
 
       <div className='Aboutteam_Content'>
@@ -135,6 +135,7 @@ export default function Home() {
             </div>
 
             <div className='order-0 order-lg-1 ' data-aos="fade-left">
+              
               <svg viewBox="0 0 455 382" fill="none" xmlns="http://www.w3.org/2000/svg"  xlink="http://www.w3.org/1999/xlink">
                 <rect x="98.3906" y="106" width="124" height="84" fill="url(#pattern0)" />
                 <rect x="98.3906" y="92" width="124" height="84.9219" fill="url(#pattern1)" />
@@ -409,7 +410,7 @@ export default function Home() {
           <div className="Aboutteam_Content ">
             <h1>Contact Us </h1>
             <p>We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange or a project looking for liquidity; an algorithmic trader or a software developer looking to improve the markets with us or just have a great idea you can’t wait to share with us!</p>
-            <Link className='get_btn'>Get in touch</Link>
+            <Link className='get_btn' to='/getintouch'>Get in touch</Link>
           </div>
 
           <div className='Contactbg1'>

@@ -8,11 +8,19 @@ import Focuse from "./img/focuse.svg";
 import Transparency from "./img/transparency.svg";
 import Discovery from "./img/discovery.svg";
 import Mentality from "./img/mentality.svg";
+import Splideslider from "./Splideslider"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Workwithus() {
+
+    const handleClickScroll = () => {
+        const element = document.getElementById('box');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     useEffect(() => {
         AOS.init();
@@ -24,7 +32,7 @@ export default function Workwithus() {
                 <h1>Join Our
                     Growing Team </h1>
                 <p>Join our community of innovators, problem solvers and owners who apply scientific discovery techniques to make crypto markets a better place for everyone.</p>
-                <Link className='openPo_txt'>Open Positions</Link>
+                <Link className='openPo_txt' onClick={handleClickScroll}>Open Positions</Link>
             </div>
 
             <div className='container_About'>
@@ -51,6 +59,14 @@ export default function Workwithus() {
                     </div>
 
                 </div>
+
+                <div>
+                    <Splideslider />
+                </div>
+
+
+
+
                 <div className="Aboutteam_Content"><h1>Our Values & Culture</h1></div>
 
                 <div className='Focuse_section'>
@@ -161,7 +177,7 @@ export default function Workwithus() {
 
                 <div className="Aboutteam_Content"><h1>Take the next step</h1></div>
 
-                <div className='open_positions_box'>
+                <div className='open_positions_box' id='box'>
                     <div class="bg-hld">
                         <div class="blob blob--purple u-purple-blob"></div>
                         <div class="blob blob--gold u-gold-blob"></div>

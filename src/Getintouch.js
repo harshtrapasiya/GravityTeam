@@ -112,6 +112,7 @@ export default function Getintouch() {
                 </Form>
               )}
             </Formik>
+            
           </div>
         </div>
         <footer className='Footer_section'>

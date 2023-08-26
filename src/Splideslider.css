@@ -1,0 +1,19 @@
+.Splide_slider {
+    margin-top: 6.4rem;
+}
+
+.splide__pagination__page.is-active {
+    background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%) ;
+}
+
+.splide__pagination {
+    bottom: -4rem ;
+
+}
+.splide__pagination__page {
+    background: white;
+    border-radius: 0;
+    height: 4px;
+    opacity: 1;
+    width: 20px;
+}
